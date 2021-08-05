@@ -1,0 +1,18 @@
+README
+
+
+Para compilar la mex function (si tienes un compilador de FORTRAN para MATLAB, puedes saberlo con >> mex -setup FORTRAN) solo tienes que hacer en MATLAB 
+
+>>mex meemum_fun_gateway.F meemum_fun.f ; 
+
+y para llamar al mex resultante simplemente 
+
+>> [a,b,c,d]=meemum_fun_gateway(v,cblk) 
+
+en donde v = [P T] y cblk=[c1,c2,...c9] son las composiciones. 
+
+También te paso la función 'memmum_call_fun.F' que llama a 'meemum_fun.f' por si quieres probar a compilarla con tu compilador FORTRAN de Windows y comparar resultados.
+
+
+
+

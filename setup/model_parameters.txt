@@ -1,0 +1,64 @@
+Define MODEL PARAMETERS
+
+----------------------------------------------------------------------
+         Model Parameters for MCMC Two-Phase problem:
+         Variables are separated by the "|" character.
+         Created by Beñat Oliveira Bravo
+                 oliveira.bravo.b@gmail.com
+----------------------------------------------------------------------
+
+PARAMETERS - MODEL
+fM	| 0		| residual porosity - majors [only tested for 0]
+fT	| 0		| residual porosity - traces [0: all liquid extracted; 1: all liquid porous flow][only tested for 0]
+dP	| -500		| pressure interval [bar, negative]
+g	| 9.81		| gravitational acceleration [m/s2]
+W0	| 5		| mantle reference solid upwelling velocity [cm/yr]
+P_ini	| 20e3		| starting pressure [bar]
+k0	| 1e-8		| permeability cte	
+n	| 3		| permeability exponent - only [3] has been tested
+
+OTHER PARAMETERS
+isen	| 1		| PT path options: [1] precomputed tables [2] create Tables + interpolation
+diff	| 1		| diffusion coeff: [1] experimental; [2] inf
+part	| 1		| partition coeff: [1] variable; [2] constant
+parallel	| 6		| number of parallelization
+
+
+REFERENCE PHYSICAL PARAMETERS
+rho_m 	| 3.20e3	| mantle reference density [kg/m3]
+rho_l 	| 2.80e3	| liquid reference density [kg/m3]
+alpha_m	| 3.3e-5	| mantle reference thermal expansion coefficient [1/K]
+Cp_m	| 1.2e3		| mantle reference specific heat capacity [J/(kg K)]
+mu_l	| 1e1		| liquid reference viscosity [Pa s]
+beta	| 5		| geometry of crystals: 5 = sphere, 4 = cylinder, 1 = plane sheet
+
+
+REFERENCE SOURCE CHEMISTRY - OXIDES
+Bulk Composition (DMM - Workman & Hart)
+SiO2	| 43.12		| mass amount
+Al2O3	| 3.98		| mass amount
+Fe2O3	| 0.19		| mass amount
+FeO	| 8.02		| mass amount
+MnO	| 0.13		| mass amount
+MgO	| 38.77		| mass amount
+CaO	| 3.17		| mass amount
+Na2O	| 0.28		| mass amount
+Cr2O3	| 0.57		| mass amount
+TiO2	| 0.13		| mass amount
+
+
+REFERENCE SOURCE CHEMISTRY - Traces
+La	| 0.683		| ppm
+Ce	| 1.752		| ppm
+Pr	| 0.265		| ppm
+Nd	| 1.341		| ppm
+Sm	| 0.434		| ppm
+Eu	| 0.166		| ppm
+Gd	| 0.585		| ppm
+Tb	| 0.107		| ppm
+Dy	| 0.724		| ppm
+Ho	| 0.159		| ppm
+Er	| 0.468		| ppm
+Yb	| 0.477		| ppm
+Lu	| 0.071		| ppm
+
