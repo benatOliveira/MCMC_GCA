@@ -46,7 +46,7 @@ clear all;
 clc;
 matlabrc;
 
-addpath([pwd,filesep,'dramcode/']); 
+addpath([pwd,filesep,'amcode/']); 
 addpath([pwd,filesep,'utils/']);
 addpath([pwd,filesep,'setup/']);
 addpath([pwd,filesep,'perplex-model/'])
