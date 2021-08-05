@@ -4,10 +4,12 @@ README
 	MCMC inversions of trace and/or major elements from mantle-derived melts 
 	for the thermochemical state of the source (mantle).
          
- 	Reference: Oliveira, B., Afonso, J.C., Klocing, M. (2021), Melting 
+ 	Reference: Oliveira, B., Afonso, J.C., Klöcking, M. (2021), Melting 
             	conditions and mantle source composition from probabilistic 
             	joint inversion of major and rare earth element concentrations,
             	Geochim. Cosmochim. Acta, doi:
+            	
+	https://zenodo.org/badge/latestdoi/392885242
             	
 	Contact: oliveira.bravo.b@gmail.com
 ----------------------------------------------------------------------------------------
@@ -39,7 +41,7 @@ With each of the six vertexes, it either
 	retrieves precomputed PTC paths for given chemical composition 
 	(option isen = 1 in model_parameters.txt)
 	or,
-	 computes isentropic PTC paths on the fly
+	computes isentropic PTC paths on the fly
 	(option isen = 2 in model_parameters.txt)
 And calls the solver for traces (diseqm_trace_fractional.m) for each set of Tp-Al2O3-Na2O values.
 Once it retrieves the composition of pooled magmas from each isentrope, it computes an averaged
@@ -55,6 +57,9 @@ Computes both major and trace elment composition of pooled magma for the given t
 Default parameters reproduce the results in Section 5, where both major and trace element 
 compositional data have been used to infer mantle potential temperature (Tp), final depth of 
 melting (ztop), and source composition (Al2O3, Na2O and REE's). 
+
+To change other parameters (e.g. upwelling velocity, grain size) go to model_parameters.txt and 
+trace_elements_parameters.txt.
 	
 
 ----------------------
@@ -78,14 +83,14 @@ And select isen = 2 in model_parameters.txt
 To modify the misfit function:
 	misfit.m
 	
-To increas/decrease the resolution of the Tp-Al2O3-Na2O discretization space where interpolations
+To increase/decrease the resolution of the Tp-Al2O3-Na2O discretization space where interpolations
 are performed, modify:
 	<*_stencil> in mcmc_wrapper.m
 
 Contant the authors with any question or comment.
 
 -------------------------------------------------------------------------------------------------
-Copyright (C) 2021  B. Oliveira, J.C. Afonso & M. Klocking
+Copyright (C) 2021  B. Oliveira, J.C. Afonso & M. Klöcking
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
