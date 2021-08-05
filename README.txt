@@ -8,10 +8,8 @@ README
             	conditions and mantle source composition from probabilistic 
             	joint inversion of major and rare earth element concentrations,
             	Geochim. Cosmochim. Acta, doi:
-		
-	https://zenodo.org/record/5163012#.YQuUBjoRUUE
             	
-	https://zenodo.org/badge/latestdoi/392885242
+	https://doi.org/10.5281/zenodo.5163012
             	
 	Contact: oliveira.bravo.b@gmail.com
 ----------------------------------------------------------------------------------------
@@ -104,7 +102,7 @@ the Free Software Foundation, either version 3 of the License, or
             joint inversion of major and rare earth element concentrations,
             Geochim. Cosmochim. Acta, doi:
             
- https://zenodo.org/badge/latestdoi/392885242
+ https://doi.org/10.5281/zenodo.5163012
 
 
 

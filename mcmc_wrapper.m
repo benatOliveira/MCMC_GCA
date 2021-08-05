@@ -40,7 +40,7 @@
 %             joint inversion of major and rare earth element concentrations,
 %             Geochim. Cosmochim. Acta, doi:
 %
-%  https://zenodo.org/badge/latestdoi/392885242
+%  https://doi.org/10.5281/zenodo.5163012
 % -------------------------------------------------------------------------
 
 %% file paths & names
