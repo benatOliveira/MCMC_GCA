@@ -52,7 +52,7 @@ addpath([pwd,filesep,'setup/']);
 addpath([pwd,filesep,'perplex-model/'])
 addpath([pwd,filesep,'perplex-model/tables'])
 % Add the path were the folder 'Variables_Table_extra_aux' is:
-addpath('/home/benat/Dropbox/MCMC_EPSL/Code/version/MCMC_melting_27072020/perplex-model/Variables_Table_extra_aux')
+addpath([pwd,filesep,'perplex-model/Variables_Table_extra_aux'])
 
 p = gcp('nocreate'); % If no pool, do not create new one.
 if isempty(p)
