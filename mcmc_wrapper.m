@@ -39,6 +39,8 @@
 %             conditions and mantle source composition from probabilistic 
 %             joint inversion of major and rare earth element concentrations,
 %             Geochim. Cosmochim. Acta, doi:
+%
+%  https://zenodo.org/badge/latestdoi/392885242
 % -------------------------------------------------------------------------
 
 %% file paths & names

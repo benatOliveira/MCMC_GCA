@@ -97,10 +97,12 @@ it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
- Reference: Oliveira, B., Afonso, J.C., Klocing, M. (2021), Melting 
+ Reference: Oliveira, B., Afonso, J.C., Klöcking, M. (2021), Melting 
             conditions and mantle source composition from probabilistic 
             joint inversion of major and rare earth element concentrations,
             Geochim. Cosmochim. Acta, doi:
+            
+ https://zenodo.org/badge/latestdoi/392885242
 
 
 
